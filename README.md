@@ -14,5 +14,5 @@ For my workflow I used a template, and only changed the value of the DOCKER_HUB_
 
 # Part 3
 
-To pull an image from your docker repository first login to you docker account on your ubuntu instance, also make sure docker is installed with `sudo apt install docker.io`. Then use `sudo docker pull username/repositoryName:tagname` or `sudo docker pull username/repositoryName` to pull your image. Once the image is pulled you can use `sudo docker run -dit --name containerName -p host_port:container_port username/repositoryName` to run the container
+To pull an image from your docker repository first login to you docker account on your ubuntu instance, also make sure docker is installed with `sudo apt install docker.io`. Then use `sudo docker pull username/repositoryName:tagname` or `sudo docker pull username/repositoryName` to pull your image. Once the image is pulled you can use `sudo docker run -dit --name containerName -p host_port:container_port username/repositoryName` to run the container.
  
